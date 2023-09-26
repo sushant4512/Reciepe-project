@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#navlist{
+    list-style: none;
+    font-size: 2.1rem;
+    display: flex;
+    justify-content: space-between;
+    /* margin-left: 15px;
+    margin-right: 15px; */
+    align-items:center;
+    padding: 15px;
+}
+.navcontainer{
+    width: 100vw;
+    /* background-color: aquamarine; */
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    min-height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    overflow-x: none;
+    background-color: whitesmoke;
+}
+#navlogo{
+    font-size:3.6rem;
+}
+nav{
+    width: 100%;
+    padding-right: 2rem;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    width: 100%;
+}
+
+.footerbox{
+    width: 100%;
+    background-color: #9d8181b0;
+
+    background-image: linear-gradient(160deg, #000000 0%, #8085d0 100%);
+    min-height: 40px;
+    text-align: center;
+}
+.footerbox p{
+    color: red;
+    font-size: 1.8rem;
+}
+.contentbox{
+    width: 50%;
+    margin: auto;
+    /* border: 2px solid black; */
+     background-color:beige;
+     display: flex;
+     flex-direction: column;
+     gap: 100px;
+     padding: 3rem;
+     box-shadow: 1px 1px 30px black;
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+   
+}
+.rightbox img{
+    height: 200px;
+    border-radius: 20px;
+    transition: all 0.6s linear 0s;
+
+    
+}
+.rightbox img:hover{
+    transform:scale(1.2);
+}
+/* #gulab img{
+    height: 350px;
+
+} */
+.leftbox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.leftbox h2{
+    font-size: 2rem;
+}
+.ingbox{
+    font-size: 1.3rem;
+}
+.recipebox{
+    font-size: 1.1rem;
+}
